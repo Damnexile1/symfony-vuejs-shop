@@ -404,6 +404,9 @@
     "symfony/options-resolver": {
         "version": "v5.2.12"
     },
+    "symfony/password-hasher": {
+        "version": "v5.4.3"
+    },
     "symfony/phpunit-bridge": {
         "version": "6.0",
         "recipe": {
@@ -576,6 +579,9 @@
     },
     "symfony/yaml": {
         "version": "v5.2.14"
+    },
+    "symfonycasts/verify-email-bundle": {
+        "version": "v1.9.0"
     },
     "theseer/tokenizer": {
         "version": "1.2.1"

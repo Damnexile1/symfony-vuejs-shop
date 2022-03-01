@@ -3,7 +3,7 @@
         <i class="fas fa-bars"></i>
     </button>
 
-    <a href="#" class="logotype">
+    <a href="{{ path('homepage') }}" class="logotype">
         <img src="{{ asset('build/images/icons/logo_366x79.svg') }}" alt="RankedChoice Logotype">
     </a>
     <nav class="main-nav">
@@ -35,7 +35,7 @@
             </li>
 
             <li class="menu-item font-weight-bold">
-                <a href="#">
+                <a href="{{ path('app_login') }}">
                     <div>Login</div>
                 </a>
             </li>
